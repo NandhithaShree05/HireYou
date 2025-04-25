@@ -38,12 +38,15 @@ Ensuring each module (quiz, mock test, interview) felt unique yet unified
 Managing quiz logic and scoring without heavy backend dependencies
 
 ● Any pivots, brainstorms, or breakthroughs during hacking
-● Pivoted from static MCQs to interactive, step-by-step quizzes with
-explanations
-● Brainstormed an "AI-powered mock interview" concept using fast LLMs (like
-Groq)
+
+● Pivoted from static MCQs to interactive, step-by-step quizzes with explanations.
+
+● Brainstormed an "AI-powered mock interview" concept using fast LLMs 
+
 ● Breakthrough in simplifying the UI using Tailwind for clean, modular design
+
 ● Decided to group questions by difficulty to better simulate real test conditions
+
 ● Added instant scoring and explanation reveal for better learning impact
 
 **🛠️ Tech Stack**
@@ -51,6 +54,7 @@ Groq)
 **Core Technologies Used:**
 
 Frontend: HTML, CSS
+
 Backend: JS
 
 **✨ Key Features**
@@ -66,6 +70,7 @@ Backend: JS
 **📽 Demo & Deliverables**
 
 ● Demo Video Link: https://youtu.be/orArr7cLa00
+
 ● PPT Link: https://1drv.ms/p/c/c2525670b540355c/EYjm32TSHQNBhUfGbADOT4wBST3qnvPWsW2nro9kCYvsBg?e=AfwiAg
 
 **✅ Tasks & Bonus Checklist**
@@ -86,7 +91,9 @@ Just open "index.html" and start using our web app.
 **🧬 Future Scope**
 
 ● 📈 Personalized Learning Paths
+
 ● 🤝 Peer-to-Peer Practice Mode
+
 ● 📊 Detailed Analytics Dashboard
 
 
@@ -94,11 +101,13 @@ Just open "index.html" and start using our web app.
 🛠 Open Source Libraries / Tools Referenced:**
 
 ● Tailwind CSS – For building a clean, responsive, and modern UI
+
 ● JavaScript / HTML5 – Core technologies for quiz logic and interactivity
 
 **🙌 Acknowledgements:**
 
 ● Inspiration and learning from platforms like GeeksforGeeks, LeetCode, and InterviewBit.
+
 ● Appreciation to all contributors of open-source tools that made this project possible.
 
 **🏁 Final Words**
@@ -114,7 +123,9 @@ There were fun moments too — like accidentally making a quiz where all options
 **Huge shout-out to:**
 
 ● Our team for late-night debugging and great energy 🎉
+
 ● The organizers and mentors for creating this space to build and learn 💡
+
 ● Everyone who tested the platform and gave real, helpful feedback 🙌
 
 We’re proud of what we built — and more excited about where we can take it next. Onward and upward! �
