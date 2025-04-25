@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>HR Interview – Tell me about yourself</title>
+  <title>HR Interview – Why Should We Hire You?</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -16,6 +16,7 @@
       justify-content: center;
       height: 100vh;
       margin: 0;
+      margin-top: 20px;
     }
 
     h2 {
@@ -52,8 +53,8 @@
     }
 
     audio {
+      margin-top: 20px;
       min-height: 50px;
-      margin-top: 10px;
     }
 
     .label {
@@ -85,7 +86,7 @@
       margin-bottom: 10px;
     }
 
-      .btn {
+    .btn {
       display: inline-block;
       padding: 10px 35px;
       background-color: #b7d4ff;
@@ -95,6 +96,7 @@
       border-radius: 30px;
       text-decoration: none;
       transition: all 0.3s ease;
+      margin-bottom: 20px;
     }
 
     .btn:hover {
@@ -102,11 +104,10 @@
       transform: scale(1.05);
     }
 
-
   </style>
 </head>
 <body>
-  <h2>Answer the Question: "Tell me about yourself"</h2>
+  <h2>Answer the Question: "Why should we hire you?"</h2>
   <div>
     <button id="startBtn">🎙️ Start Recording</button>
     <button id="stopBtn">⏹️ Stop Recording</button>
@@ -204,46 +205,25 @@
       giveFeedback(userText);
     };
 
-
-    function giveFeedback(transcript) {
-  const lower = transcript.toLowerCase();
-  let feedback = "";
-
-  // Adjusting feedback based on "What are your weaknesses" question
-  if (lower.includes("lack") || lower.includes("weakness") || lower.includes("struggle")) {
-    feedback = "Good! Be sure to highlight how you're working on improving them.";
-  } else if (lower.length < 10) {
-    feedback = "Hmm... didn't catch much. Try explaining in more detail.";
-  } else {
-    feedback = "Nice response! You can now talk about how you've overcome these weaknesses.";
-  }
-  feedbackText.textContent = feedback;
-}
-
-
-    // Feedback logic
+    // Function to give feedback based on transcript (audio or text)
     function giveFeedback(transcript) {
       const lower = transcript.toLowerCase();
       let feedback = "";
 
-      if (lower.includes("student") || lower.includes("learning")) {
-        feedback = "Nice! Talk about your education and projects next.";
-      } else if (lower.includes("data") || lower.includes("ai") || lower.includes("python")) {
-        feedback = "Great! You mentioned your tech stack — maybe add your goals.";
+      // Adjusting feedback based on "Why should we hire you?" question
+      if (lower.includes("skills") || lower.includes("experience") || lower.includes("fit") || lower.includes("contribution")) {
+        feedback = "Great! Focus on how your skills and experiences make you a great fit for the company and role.";
       } else if (lower.length < 10) {
-        feedback = "Hmm... didn't catch much. Try speaking more clearly.";
+        feedback = "Hmm... didn't catch much. Try explaining why you’re a strong candidate for this position.";
       } else {
-        feedback = "Good start! You can now add your strengths and career goals.";
+        feedback = "Nice response! Highlight your strengths and how you can contribute to the company's success.";
       }
       feedbackText.textContent = feedback;
     }
 
-
-
   </script>
 
-<a href="qsn2.html" class="btn">Let's try the next question now !</a>
-
+<a href="sample7.html" class="btn">Prepare for Next Question !</a>
 
 </body>
 </html>
